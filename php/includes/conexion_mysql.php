@@ -8,7 +8,7 @@ class conexion_mysql {
     {
         $host = 'localhost:3306';
         $usuario='root';
-        $clave='200978';
+        $clave='';
         $bd='bd_tecnico';
        
 

@@ -1,6 +1,6 @@
 <?php
 
-    require '../includes/sentencias.php';
+    require("../includes/sentencias.php");
 
     if ($_POST) {
     $sentencias = new sentencias();

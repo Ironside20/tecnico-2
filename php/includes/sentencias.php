@@ -22,8 +22,6 @@ class sentencias {
 
     }
 
-
-
     public function insertar ($codigo, $detalles, $marca, $categoria, $cantidad, $precio, $fecha, $garantia, $estado) {
 
         $conn =new conectarR ();

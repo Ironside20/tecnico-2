@@ -24,9 +24,9 @@
                         <a href="../../view/inicio.php" class="menu_link">Inicio</a>
                     </li> -->
 
-                    <li class="menu_item">
+                    <!-- <li class="menu_item">
                         <a href="../registro/ficha_tecnica.php" class="menu_link">Ficha de Observación</a>
-                    </li>
+                    </li> -->
 
                     <li class="menu_item menu_item-show">
                         <a href="#" class="menu_link">Registro <img src="../../assets/arrow.svg" class="menu_arrow"></a>
@@ -38,7 +38,7 @@
                             </li>
 
                             <li class="menu_inside">
-                                <a href="../registro/existente.php" class="menu_link menu_link-inside">Existente</a>
+                                <a href="../registro/ficha_tecnica.php" class="menu_link menu_link-inside">Ficha</a>
                             </li>
 
                         </ul>

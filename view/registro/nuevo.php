@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../assets/pluggins/sweetalert/dist/sweetalert2.min.css">
+    <script src="../../js/funciones.js"></script>
     <title>Electronica Jácome</title>
 </head>
 
@@ -25,9 +26,9 @@
                         <a href="../../view/inicio.php" class="menu_link">Inicio</a>
                     </li> -->
 
-                    <li class="menu_item">
+                    <!-- <li class="menu_item">
                         <a href="ficha_tecnica.php" class="menu_link">Ficha de Observación</a>
-                    </li>
+                    </li> -->
 
                     <li class="menu_item menu_item-show">
                         <a href="#" class="menu_link">Registro <img src="../../assets/arrow.svg" class="menu_arrow"></a>
@@ -38,8 +39,9 @@
                                 <a href="nuevo.php" class="menu_link menu_link-inside">Nuevo</a>
                             </li>
 
+                    
                             <li class="menu_inside">
-                                <a href="existente.php" class="menu_link menu_link-inside">Existente</a>
+                                <a href="ficha_tecnica.php" class="menu_link menu_link-inside">Ficha</a>
                             </li>
 
                         </ul>
@@ -87,7 +89,7 @@
 
         <section class="content">
 
-            <form action="../../php/includes/insertar.php" method="POST" name="frm-insert">
+            <form method="POST" name="frm-insert" action="">
 
                 <div>
                     <h1 class="lb_rN" style="text-align: center;">Registrar Nuevo Producto</h1>
@@ -171,15 +173,13 @@
 
                 </div>
 
-                <button id="enviar" name="enviar" type="submit">Insertar</button>
+                <button id="insertar" name="insertar" type="submit" onclick="insertar();">Insertar</button>
 
             </form>
 
-            <?php
-            include("../../php/includes/sentencias.php");
-            ?>
-
         </section>
+        
+        <script src="../../js/funciones.js"></script>
 
         <footer style=" position: absolute; padding: 10px; bottom: 0; width: 100%; height: 60px; text-align: center; background-color: #035397;">
 
@@ -194,7 +194,7 @@
     </div>
 
 </body>
-
-<script src="../../assets/pluggins/sweetalert/dist/sweetalert2.min.js"></script>
-
+        
+        <script src="../../assets/pluggins/sweetalert/dist/sweetalert2.min.js"></script>
+        
 </html>

@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.js" type="text/javascript"></script>
     <title>Electronica Jácome</title>
 </head>
 
@@ -105,7 +107,7 @@
 
                 <div class="list-view" style="margin: 15px 0;">
 
-                    <table id="list_view" class="display" style="width:100%">
+                    <table id="tabla" class="display" style="width:100%">
 
                         <thead class="list_head">
                             <tr>
@@ -131,13 +133,12 @@
 
                 </div>
 
-
-
-
+                <script>
+                    var tabla= document.querySelector("#tabla");
+                    var dataTable = new dataTable(tabla);
+                </script>
 
             </form>
-
-
 
         </section>
 

@@ -133,11 +133,6 @@
 
                 </div>
 
-                <script>
-                    var tabla= document.querySelector("#tabla");
-                    var dataTable = new dataTable(tabla);
-                </script>
-
             </form>
 
         </section>

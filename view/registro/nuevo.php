@@ -133,26 +133,19 @@
                     </span>
 
                     <span class="c_dropdown">
-
                         <label for="category" class="a_native_dropdown">Categoria:</label>
-
                         <input type="text" id="categoria" name="categoria" list="list-categoria" style="text-align: center; width: 120px;">
-
                         <datalist name="categoria" id="categoria" autocomplete="off" tabindex="0" class="sl_mark" aria-pressed="false">
                             <option value="Radio"></option>
                             <option value="Parlante"></option>
                             <option value="Amplificadores"></option>
                             <option value="Bajos"></option>
                         </datalist>
-
                     </span>
 
                     <span class="m_dropdown">
-
                         <label for="mark" class="a_native_dropdown">Marca:</label>
-
                         <input type="text" name="marca" id="marca" style="width: 70px; text-align: center;">
-
                     </span>
 
                 </div>
